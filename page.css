@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    background-color: black; 
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+    
+}
+nav .menu{
+    
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+.menu .logo a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 600;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 9px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+}
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.img{
+    background: url(page.jpg) no-repeat;
+    width: 1005;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    
+    
+}
+.img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 10, 0);
+}
+.center{
+    width: 100%;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    padding: 0 20px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.center .title{
+    color: aliceblue;
+    font-size: 52px;
+    font-weight: 600;
+}
+.center .btn button{
+    height: 55px;
+    width: 170px;
+    border-radius: 6%;
+    border: none;
+    margin: 0 10px;
+    border: 2px double white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    transition: all 0.4s ease;
+    outline: none;
+    cursor: pointer;
+}
+.center .btn button:hover{
+    color: #fff;
+    background: none;
+}
+.bkn{
+    text-decoration: underline;
+}
+.para{
+    margin-top: 40px;
+  
+}
+.para{
+    display: flex;
+    justify-content: space-around;
+
+}
+img{
+    
+    border-radius: 6px;
+}
+.para div{
+display: inline-block;
+width: 20%;
+
+border-radius: 7px;
+border: 3px solid black;
+padding: 10px;
+transition: all 0.4s ease;
+}
+.para div:hover{
+transform: scale(1.2);
+}
+p{
+   
+    text-align: justify;
+    
+}
+.para1{
+    border: 4px;
+    background-color: rgb(rgb(90, 247, 97));
+}  
+
+
+#wa,#ig,#fb{
+  margin-left: 30%;
+
+
+}
+#para{
+
+background-color: rgb(rgb(90, 247, 97));
+}
+.para1{
+    background-color:rgb(139, 215, 63)
+}
+.para2{
+    background-color: crimson;
+}
+.para3{
+    background-color: rgb(45, 119, 210);
+}
+.up{
+    transform: rotate(35deg);
+    display: flex;
+}
